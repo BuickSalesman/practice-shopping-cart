@@ -19,4 +19,4 @@ function App() {
 
 export default App;
 
-//RETURN TO VIDEO AT 6:56:00
+//RETURN TO VIDEO AT 7:09:00
