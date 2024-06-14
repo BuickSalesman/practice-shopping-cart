@@ -11,6 +11,14 @@ export default function Header() {
             </h1>
           </div>
         </Link>
+        <ul className="flex list-none items-center space-x-6 text-gray-800 font-semibold">
+          <Link to={"/"}>
+            <li className="cursor-pointer list-none">HOME</li>
+          </Link>
+          <Link to={"/cart"}>
+            <li className="cursor-pointer">CART</li>
+          </Link>
+        </ul>
       </nav>
     </div>
   );
