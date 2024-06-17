@@ -7,7 +7,6 @@ import Header from "./components/header";
 function App() {
   return (
     <>
-      <h1>Navbar</h1>
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
